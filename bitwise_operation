@@ -1,0 +1,20 @@
+# Taking user input
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+# Bitwise operations
+and_result = a & b
+or_result = a | b
+xor_result = a ^ b
+not_a = ~a
+left_shift = a << 1
+right_shift = a >> 1
+
+# Display results in binary
+print("\nBitwise Operations Results (Binary Representation):")
+print(f"{a:08b} & {b:08b} = {and_result:08b} (AND)")
+print(f"{a:08b} | {b:08b} = {or_result:08b} (OR)")
+print(f"{a:08b} ^ {b:08b} = {xor_result:08b} (XOR)")
+print(f"~{a:08b} = {not_a:08b} (NOT)")
+print(f"{a:08b} << 1 = {left_shift:08b} (Left Shift)")
+print(f"{a:08b} >> 1 = {right_shift:08b} (Right Shift)")
